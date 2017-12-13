@@ -3,7 +3,7 @@ const Header = (props)=>{
 
     return(
       <header className="top">
-        <h1>AMAP</h1>
+        <h1>野菜</h1>
         <h3><span>{props.tagline}</span></h3>
       </header>
       )

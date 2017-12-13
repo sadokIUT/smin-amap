@@ -1,9 +1,12 @@
 import React from 'react';
-
+import AddVeggieForm from './AddVeggieForm'
 class Inventory extends React.Component{
   render() {
     return(
-      <div className="amap"><h2>Inventory</h2></div>
+      <div>
+        <p>Inventory</p>
+        <AddVeggieForm addVeggie={this.props.addVeggie}/>
+      </div>
       )
   }
 }
